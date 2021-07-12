@@ -328,3 +328,27 @@ code {
   border-radius: 0 10px 10px 0;
   border-left: 5px solid #4c9cf1;
 }
+
+
+/* ==================================================================
+    TABLE RULE
+================================================================== */
+
+th {
+  background-color:navy;
+  color: white;
+  font-weight: bold;
+}
+
+tr:nth-child(odd){
+  background: lightgray;
+}
+
+/* ==================================================================
+    custom CSS RULE
+================================================================== */
+
+.source {
+  font-size: vaar(--small);
+  font-style: italic;
+}
